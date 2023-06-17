@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  overflow: hidden;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+
+.loginPage {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(login-img/login-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.loginPage .loginPage-blur {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgba(5, 226, 255, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 34%;
+  padding: 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 255, 255, 0.5);
+  border: 8px solid black;
+  outline: 5px solid rgba(0, 255, 255, 0.6);
+  box-shadow: 0 3px 6px 3px rgba(0, 0, 0, 0.7);
+  transition: 0.5s ease;
+}
+
+.container:hover {
+  background-color: rgb(47, 179, 179);
+}
+
+.container h1 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+}
+
+.container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.container form label {
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+
+.container form .label {
+  color: black;
+}
+
+.container form input {
+  margin-bottom: 1rem;
+  border: none;
+  outline: none;
+}
+
+.container form .input {
+  width: 16rem;
+  height: 2rem;
+  padding: 1.1rem;
+  border-radius: 5px;
+}
+
+.container form .input:placeholder-shown {
+  padding-left: 1.1rem;
+}
+
+.container form .chekBox {
+  display: inline-flex;
+}
+
+.container form .btn {
+  height: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  color: #fff;
+  background-color: black;
+  margin-bottom: 1.1rem;
+}
+
+.container form .btn:hover {
+  border: 2px solid #fff;
+  outline: 2px solid black;
+}
+
+.container form .label-plus {
+  gap: 1rem;
+}
+
+.container form .label-plus a {
+  color: #fff;
+  font-size: 1rem;
+}
